@@ -38,7 +38,7 @@
     "node": ">=22"
   },
   "scripts": {
-    "test": "node --test test/envelope.test.mjs test/resolve.test.mjs test/bus.test.mjs test/find.test.mjs test/toolkit.test.mjs test/threads.test.mjs test/config.test.mjs test/plugin.test.mjs test/presentation.test.mjs test/coordination.test.mjs test/leases.test.mjs",
+    "test": "node --test test/bus.test.mjs test/config.test.mjs test/coordination.test.mjs test/envelope.test.mjs test/find.test.mjs test/inbox-cancel.test.mjs test/leases.test.mjs test/plugin.test.mjs test/presentation.test.mjs test/resolve.test.mjs test/threads.test.mjs test/toolkit.test.mjs",
     "install:profile": "pwsh -NoProfile -File scripts/install.ps1",
     "uninstall:profile": "pwsh -NoProfile -File scripts/install.ps1 -Uninstall"
   },
